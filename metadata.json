@@ -1,0 +1,7 @@
+{
+  "name": "Digital Sarathi – Your Digital Life Guide",
+  "description": "Educational portal for Community Engagement Project (CEP) providing step-by-step training on DigiLocker, Aadhaar, and PAN services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
