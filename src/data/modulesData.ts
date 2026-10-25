@@ -740,7 +740,7 @@ export const CEP_PROJECT_INFO = {
       name: 'BINU MOURYA',
       role: 'Project Lead & Research Analyst',
       studentId: 'CEP-2025-041',
-      department: 'B.Tech Computer Science & Engineering',
+      department: 'B.Sc Information Technology',
       contribution: 'Designed workflow architectures for DigiLocker and PAN e-filing module integrations.',
       imagePlaceholder: 'RS'
     },
@@ -756,7 +756,7 @@ export const CEP_PROJECT_INFO = {
       name: 'NAMITA BHADWANKAR',
       role: 'Simulator & UX Interactive Designer',
       studentId: 'CEP-2025-112',
-      department: 'BCA (Bachelor of Computer Applications)',
+      department: 'B.Sc Information Technology',
       contribution: 'Created safe sandboxed Aadhaar decrypters, progress trackers, and accessibility UI.',
       imagePlaceholder: 'PP'
     },
@@ -764,7 +764,7 @@ export const CEP_PROJECT_INFO = {
       name: 'YAGNESH Verma',
       role: 'Cyber Safety Specialist & Field Coordinator',
       studentId: 'CEP-2025-067',
-      department: 'MCA (Master of Computer Applications)',
+      department: 'B.Sc Information Technology',
       contribution: 'Researched real-world UPI scams, compiled helpline response procedures, and coordinated field tests.',
       imagePlaceholder: 'AV'
     }

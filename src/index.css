@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-heading: 'Segoe UI', 'Trebuchet MS', 'Arial', sans-serif;
+  --font-body: 'Segoe UI', 'Trebuchet MS', 'Arial', sans-serif;
 
   /* Light theme variables */
   --bg-app: #f1f5f9;

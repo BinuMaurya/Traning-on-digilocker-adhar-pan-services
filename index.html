@@ -9,12 +9,17 @@
     <meta property="og:description" content="Step-by-step training on DigiLocker, Aadhaar, and PAN services for students and citizens." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        const devServerUrl = 'http://localhost:3000/';
+        if (window.location.href !== devServerUrl) {
+          window.location.replace(devServerUrl);
+        }
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

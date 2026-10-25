@@ -600,8 +600,8 @@ app.post('/api/quiz/submit', (req: Request, res: Response) => {
 
 // 6. Certificate Verification API
 app.get('/api/certificates/:certId', (req: Request, res: Response) => {
-  const { certId } = req.params;
-  const cert = db.certificates.find((c) => c.id.toLowerCase() === certId.toLowerCase());
+  const certId = Array.isArray(req.params.certId) ? req.params.certId[0] : req.params.certId;
+  const cert = db.certificates.find((c) => c.id.toLowerCase() === String(certId).toLowerCase());
 
   if (!cert) {
     return res.status(404).json({
@@ -620,9 +620,9 @@ app.get('/api/certificates/:certId', (req: Request, res: Response) => {
 
 // 7. Learner Progress Cloud Sync API
 app.get('/api/progress/:learnerId', (req: Request, res: Response) => {
-  const { learnerId } = req.params;
-  const record = db.learners[learnerId] || {
-    learnerId,
+  const learnerId = Array.isArray(req.params.learnerId) ? req.params.learnerId[0] : req.params.learnerId;
+  const record = db.learners[String(learnerId)] || {
+    learnerId: String(learnerId),
     name: 'Learner',
     completedModules: ['digilocker'],
     completedActivities: ['act-1', 'act-2'],

@@ -24,3 +24,13 @@ Clone the repository:
 ```bash
 git clone https://github.com/BinuMaurya/Traning-on-digilocker-adhar-pan-services.git
 cd Traning-on-digilocker-adhar-pan-services
+```
+
+Install dependencies and start the app:
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000` in the browser. Opening the raw `index.html` file directly from the filesystem will redirect to the local dev server automatically.
