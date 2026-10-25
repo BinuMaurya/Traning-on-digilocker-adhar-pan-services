@@ -742,7 +742,7 @@ export const CEP_PROJECT_INFO = {
       studentId: 'CEP-2025-041',
       department: 'B.Sc Information Technology',
       contribution: 'Designed workflow architectures for DigiLocker and PAN e-filing module integrations.',
-      imagePlaceholder: 'RS'
+      imagePlaceholder: 'BM'
     },
     {
       name: 'Anjali Kushwaha',
@@ -758,7 +758,7 @@ export const CEP_PROJECT_INFO = {
       studentId: 'CEP-2025-112',
       department: 'B.Sc Information Technology',
       contribution: 'Created safe sandboxed Aadhaar decrypters, progress trackers, and accessibility UI.',
-      imagePlaceholder: 'PP'
+      imagePlaceholder: 'NB'
     },
     {
       name: 'YAGNESH Verma',
@@ -766,7 +766,7 @@ export const CEP_PROJECT_INFO = {
       studentId: 'CEP-2025-067',
       department: 'B.Sc Information Technology',
       contribution: 'Researched real-world UPI scams, compiled helpline response procedures, and coordinated field tests.',
-      imagePlaceholder: 'AV'
+      imagePlaceholder: 'YV'
     }
   ]
 };

@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx server.ts",
     "build": "tsc && vite build",
+    "git:auto-push": "node scripts/auto-push.mjs",
     "start": "tsx server.ts",
     "lint": "tsc --noEmit",
     "preview": "vite preview"
