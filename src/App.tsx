@@ -169,7 +169,7 @@ export default function App() {
       />
 
       {/* Main Content Sections */}
-      <main className="flex-grow">
+      <main className="grow">
         {currentTab === 'home' && (
           <>
             <HeroSection
@@ -202,7 +202,7 @@ export default function App() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {/* Banner 1: Aadhaar & PAN Card Soft Copy & Official Portal */}
-                <div className="rounded-3xl p-6 bg-gradient-to-br from-emerald-600 via-teal-700 to-slate-900 text-white shadow-xl flex flex-col justify-between border border-emerald-500/40">
+                <div className="rounded-3xl p-6 bg-linear-to-br from-emerald-600 via-teal-700 to-slate-900 text-white shadow-xl flex flex-col justify-between border border-emerald-500/40">
                   <div>
                     <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-400/20 text-emerald-200 text-xs font-extrabold uppercase mb-2 border border-emerald-300/30">
                       <CreditCard className="w-4 h-4" />
@@ -228,7 +228,7 @@ export default function App() {
                 </div>
 
                 {/* Banner 2: Certification */}
-                <div className="rounded-3xl p-6 bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 shadow-xl flex flex-col justify-between">
+                <div className="rounded-3xl p-6 bg-linear-to-r from-amber-500 to-amber-600 text-slate-950 shadow-xl flex flex-col justify-between">
                   <div>
                     <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-slate-950/20 text-slate-950 text-xs font-extrabold uppercase mb-2">
                       <Award className="w-4 h-4" />
@@ -254,7 +254,7 @@ export default function App() {
                 </div>
 
                 {/* Banner 3: Full-Stack Live REST API */}
-                <div className="rounded-3xl p-6 bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white shadow-xl flex flex-col justify-between border border-blue-700/50">
+                <div className="rounded-3xl p-6 bg-linear-to-r from-blue-900 via-indigo-900 to-slate-900 text-white shadow-xl flex flex-col justify-between border border-blue-700/50">
                   <div>
                     <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-extrabold uppercase mb-2 border border-blue-400/30">
                       <Server className="w-4 h-4" />
@@ -520,16 +520,16 @@ export default function App() {
         </div>
 
         {/* Smartphone Hardware Frame (iPhone style mockup as seen in reference photo) */}
-        <div className="w-full max-w-[412px] h-[870px] bg-black rounded-[52px] p-3 shadow-2xl border-4 border-slate-700 relative overflow-hidden flex flex-col">
+        <div className="w-full max-w-103 h-217.5 bg-black rounded-[52px] p-3 shadow-2xl border-4 border-slate-700 relative overflow-hidden flex flex-col">
           {/* Dynamic Island / Camera Notch */}
           <div className="absolute top-5 left-1/2 -translate-x-1/2 w-32 h-6 bg-black rounded-full z-50 flex items-center justify-end px-3">
             <div className="w-2.5 h-2.5 rounded-full bg-slate-900 border border-slate-800" />
           </div>
 
           {/* Screen Content Window */}
-          <div className="w-full h-full rounded-[42px] overflow-y-auto overflow-x-hidden relative bg-[var(--bg-app)] scrollbar-none flex flex-col">
+          <div className="w-full h-full rounded-[42px] overflow-y-auto overflow-x-hidden relative bg-(--bg-app) scrollbar-none flex flex-col">
             {/* Status bar mock */}
-            <div className="sticky top-0 z-40 bg-[var(--bg-header-solid)] text-white px-7 pt-2.5 pb-1 flex justify-between items-center text-[11px] font-bold">
+            <div className="sticky top-0 z-40 bg-(--bg-header-solid) text-white px-7 pt-2.5 pb-1 flex justify-between items-center text-[11px] font-bold">
               <span>9:41</span>
               <div className="flex items-center space-x-1.5">
                 <span>5G</span>

@@ -323,7 +323,7 @@ export const VsCodeRunnerModal: React.FC<VsCodeRunnerModalProps> = ({ isOpen, on
         {/* Content Body */}
         <div className="p-5 sm:p-7 overflow-y-auto space-y-6 flex-1 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
           {/* 1-Click Standalone Exporter Box */}
-          <div className="rounded-2xl p-5 bg-gradient-to-r from-blue-600/10 via-indigo-600/10 to-emerald-600/10 border border-blue-200 dark:border-blue-900 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="rounded-2xl p-5 bg-linear-to-r from-blue-600/10 via-indigo-600/10 to-emerald-600/10 border border-blue-200 dark:border-blue-900 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <span className="text-[10px] uppercase font-bold text-blue-600 dark:text-blue-400 tracking-wider">
                 Instant College Submission File
@@ -336,7 +336,7 @@ export const VsCodeRunnerModal: React.FC<VsCodeRunnerModalProps> = ({ isOpen, on
               </p>
             </div>
 
-            <div className="flex items-center space-x-2 flex-shrink-0">
+            <div className="flex items-center space-x-2 shrink-0">
               <button
                 onClick={handleCopyCode}
                 className="px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-50 text-xs font-bold flex items-center space-x-1.5 transition-all"

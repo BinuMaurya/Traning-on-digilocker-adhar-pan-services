@@ -70,7 +70,7 @@ export const AboutCepSection: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300">
                   {CEP_PROJECT_INFO.outreachLocations.map((loc, idx) => (
                     <div key={idx} className="flex items-start space-x-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
                       <span>{loc}</span>
                     </div>
                   ))}
@@ -125,7 +125,7 @@ export const AboutCepSection: React.FC = () => {
               >
                 <div>
                   {/* Avatar with initials */}
-                  <div className="w-20 h-20 rounded-full mx-auto mb-4 bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-extrabold text-xl flex items-center justify-center shadow-lg border-2 border-white dark:border-slate-800">
+                  <div className="w-20 h-20 rounded-full mx-auto mb-4 bg-linear-to-tr from-blue-600 to-indigo-600 text-white font-extrabold text-xl flex items-center justify-center shadow-lg border-2 border-white dark:border-slate-800">
                     {member.imagePlaceholder}
                   </div>
 

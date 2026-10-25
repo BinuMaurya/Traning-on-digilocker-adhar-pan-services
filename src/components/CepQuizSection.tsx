@@ -338,7 +338,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
             <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
               {verifyResult.valid && verifyResult.certificate ? (
                 <div className="p-3 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-xs text-emerald-900 dark:text-emerald-200 flex items-start space-x-3">
-                  <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold text-sm">Official Record Verified in Database!</p>
                     <p className="mt-1">
@@ -351,7 +351,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
                 </div>
               ) : (
                 <div className="p-3 rounded-2xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-xs text-rose-900 dark:text-rose-200 flex items-start space-x-3">
-                  <XCircle className="w-5 h-5 text-rose-600 flex-shrink-0 mt-0.5" />
+                  <XCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">Verification Failed</p>
                     <p className="mt-0.5">{verifyResult.message}</p>
@@ -365,7 +365,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
         {/* Certificate Display if Completed and Passed */}
         {quizCompleted && passed && certificate && (
           <div className="mb-12 animate-in fade-in zoom-in-95 duration-500">
-            <div className="rounded-3xl border-4 border-amber-300 dark:border-amber-600 p-6 sm:p-10 bg-gradient-to-b from-amber-50/50 via-white to-amber-50/30 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 shadow-2xl relative overflow-hidden print:border-none print:shadow-none">
+            <div className="rounded-3xl border-4 border-amber-300 dark:border-amber-600 p-6 sm:p-10 bg-linear-to-b from-amber-50/50 via-white to-amber-50/30 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 shadow-2xl relative overflow-hidden print:border-none print:shadow-none">
               {/* Decorative Corner Ornaments */}
               <div className="absolute top-0 left-0 w-16 h-16 border-t-8 border-l-8 border-amber-400 dark:border-amber-600" />
               <div className="absolute top-0 right-0 w-16 h-16 border-t-8 border-r-8 border-amber-400 dark:border-amber-600" />
@@ -380,7 +380,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
               {/* Certificate Content */}
               <div className="relative z-10 text-center">
                 {/* Header emblem */}
-                <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-tr from-amber-400 to-amber-600 text-white flex items-center justify-center shadow-lg border-2 border-white">
+                <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-linear-to-tr from-amber-400 to-amber-600 text-white flex items-center justify-center shadow-lg border-2 border-white">
                   <Award className="w-9 h-9" />
                 </div>
 
@@ -550,7 +550,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
                       }`}
                     >
                       <div className="flex items-start space-x-3 mb-3">
-                        <span className="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <span className="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                           {idx + 1}
                         </span>
                         <div>
@@ -579,7 +579,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
                               }`}
                             >
                               <span
-                                className={`w-4 h-4 rounded-full border text-[10px] font-bold flex items-center justify-center flex-shrink-0 mt-0.5 ${
+                                className={`w-4 h-4 rounded-full border text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5 ${
                                   isSelected
                                     ? 'border-white bg-white text-blue-600'
                                     : 'border-slate-400 text-slate-500'
@@ -604,7 +604,7 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
                   <button
                     type="submit"
                     disabled={submitting}
-                    className="w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold text-sm shadow-lg hover:shadow-xl transition-all disabled:opacity-50 flex items-center justify-center space-x-2"
+                    className="w-full sm:w-auto px-8 py-3 rounded-xl bg-linear-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold text-sm shadow-lg hover:shadow-xl transition-all disabled:opacity-50 flex items-center justify-center space-x-2"
                   >
                     {submitting ? (
                       <>
@@ -650,9 +650,9 @@ export const CepQuizSection: React.FC<CepQuizSectionProps> = ({
                 >
                   <div className="flex items-start space-x-2">
                     {r.isCorrect ? (
-                      <CheckCircle className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                     ) : (
-                      <XCircle className="w-4 h-4 text-rose-600 flex-shrink-0 mt-0.5" />
+                      <XCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
                     )}
                     <div>
                       <span className="font-bold text-slate-900 dark:text-white">
