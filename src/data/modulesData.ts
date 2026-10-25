@@ -737,7 +737,7 @@ export const CEP_PROJECT_INFO = {
   ],
   studentTeam: [
     {
-      name: 'Rahul Sharma',
+      name: 'BINU MOURYA',
       role: 'Project Lead & Research Analyst',
       studentId: 'CEP-2025-041',
       department: 'B.Tech Computer Science & Engineering',
@@ -753,7 +753,7 @@ export const CEP_PROJECT_INFO = {
       imagePlaceholder: 'AK'
     },
     {
-      name: 'Priya Patel',
+      name: 'NAMITA BHADWANKAR',
       role: 'Simulator & UX Interactive Designer',
       studentId: 'CEP-2025-112',
       department: 'BCA (Bachelor of Computer Applications)',
@@ -761,7 +761,7 @@ export const CEP_PROJECT_INFO = {
       imagePlaceholder: 'PP'
     },
     {
-      name: 'Amit Verma',
+      name: 'YAGNESH Verma',
       role: 'Cyber Safety Specialist & Field Coordinator',
       studentId: 'CEP-2025-067',
       department: 'MCA (Master of Computer Applications)',
